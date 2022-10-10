@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+    color: #15c573;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+body * {
+    margin: 2.5;
+    padding: 2.5;
+    color: rgb(43, 109, 41);
+}
+
+nav {
+    background-color: #070707;
+    color: #fff;
+    height: 8em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 6em;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+header {
+    width:100%;
+    height: 50em;
+    margin:0;
+    background-image: url('../img/hms.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.desc-section {
+    background-color: #000000;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    padding:4rem 10rem;
+    text-align: left;
+}
+
+.hamster-text, .hamster-image {
+    display:inline-block;
+    width: 150%;
+}
+
+.hamster-image {
+    text-align: right;
+}
+
+.hamster-image img {
+    width: 24em;
+}
+
+.hamster-text {
+    justify-content: center;
+}
+
+.hamster-text p {
+    margin-bottom: 2em;
+}
+
+.icons-section {
+    height: 30em;
+    background:#291a02;
+    padding: 10em 10em;
+    display: flex;
+    align-items: center;
+}
+
+.icons-section .lugar {
+    width: 100%;
+}
+
+.features-title {
+    width: 100%;
+    margin-bottom: 8em;
+}
+.features-icons {
+    display: inline-block;
+    width:20%;
+}
+
+.features-icons i {
+    margin-bottom: 1em;
+}
+.features-body {
+    width: 90%;
+}
+
+.features-icons p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.images-section {
+    height: 20em;
+    background-color: rgb(175, 159, 159);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-section .image {
+    display: inline-block;
+    width:20em;
+    height: 13em;
+    margin: 2.5em;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #1E1A13;
+    height: 6.375em;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 2em;
+}
